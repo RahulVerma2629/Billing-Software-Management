@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function Products({ products, setProducts }) {
   const empty = { name: "", sku: "", price: "" };
