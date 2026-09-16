@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import React from "react";
 
 export default function Dashboard({ stats, bills }) {
   const recent = [...bills].slice(-5).reverse();
